@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.service-section {
+    padding-top: 105px !important;
+    padding-bottom: 90px !important;
+}
+.heading {
+    padding: 0px 66px;
+}
+.heading>h2 {
+    font-size: 35px;
+    font-family: system-ui;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.heading>p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.single-card {
+    background-color: #4582ff;
+    border-radius: 8px;
+    padding: 30px 20px !important;
+}
+
+.icon-design {
+    font-size: 40px;
+}
+.single-card>h5 {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    padding: 2px 2px;
+}
+.single-card::after {
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    background: white;
+    top: 11px;
+    left: 148px;
+    opacity: .09;
+    border-radius: 50%;
+}
+.single-card::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    opacity: 0.09;
+    border-radius: 0% 100% 0 0;
+    bottom: 0;
+    left: 0px;
+}
+.single-card.course-b {
+    background-color: #fea116;
+}
+.course-b .button-part {
+    background-color: #ffb951;
+}
+.course-b .button-part:hover>a{
+    color: #fea116;
+}
+.single-card.course-c {
+    background-color: #fc4557;
+}
+.course-c .button-part {
+    background-color: #ff717f;
+}
+.course-c .button-part:hover>a {
+    color: #fc4557;
+}
+.single-card.course-d {
+    background-color: #534e8b;
+}
+.course-d .button-part {
+    background-color: #716ab5;
+}
+.course-d .button-part:hover>a {
+    color: #534e8b;
+}
+.single-card.course-e {
+    background-color: #1cb5a3;
+}
+.course-e .button-part {
+    background-color: #38e1cd;
+}
+.course-d .button-part:hover>a {
+    color: #1cb5a3;
+}
+.button-part {
+    background-color: #7ca7ff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    min-width: 95px;
+    transition: .5s;
+}
+.button-part:hover{
+    background-color:white
+}
+.button-part:hover>a{
+    color: #7ca7ff;
+}
+.button-part>a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.width-add{
+    margin-top: 25px;
+    width: 20%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .width-add {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .heading {
+        padding: 0px 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .width-add {
+        width: 100%;
+    }
+}
